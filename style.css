@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.primary-btn {
+  padding: 8px 16px;
+  width: fit-content;
+  min-width: 240px;
+  margin: auto;
+
+  border-radius: 20px;
+  border: none;
+  background-color: lightblue;
+
+  font-size: 20px;
+}
